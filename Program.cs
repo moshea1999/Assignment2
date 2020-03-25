@@ -97,6 +97,17 @@ namespace Assignment2
                         break;
                 }
 
+                bool Equal = Enumerable.SequenceEqual(input1, input2);
+
+                if (Equal == true)
+                {
+                    Console.WriteLine("both are equal");
+                }
+                else
+                {
+                    Console.WriteLine("both are not equal");
+                }
+
             }
         }
     }
